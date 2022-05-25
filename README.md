@@ -1,1 +1,1 @@
-# React chess
+# React chess project
