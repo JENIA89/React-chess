@@ -26,10 +26,19 @@
   align-items: center;
 }
 
+.cell img {
+  width: 48px;
+  position: relative;
+}
+
 .black {
   background-color: deepskyblue;
 }
 
 .white {
   background-color: #eed4ac;
+}
+
+.selected {
+  background-color: brown;
 }
