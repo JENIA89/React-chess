@@ -29,6 +29,7 @@
 .cell img {
   width: 48px;
   position: relative;
+  cursor: pointer;
 }
 
 .black {
@@ -41,4 +42,11 @@
 
 .selected {
   background-color: brown;
+}
+
+.available {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #22c022;
 }
