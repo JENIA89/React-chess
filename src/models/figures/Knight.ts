@@ -10,4 +10,9 @@ export class Knight extends Figure {
     this.logo = color === Colors.BLACK ? blackLogo : whitekLogo;
     this.name = Figurenames.KNIGHT;
   }
+
+  canMove(target: Cell): boolean {
+    if(!super.canMove(target)) return false;
+    return true;
+  }
 }
